@@ -14,9 +14,9 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'modules' => [
-//        'tvertale' => [
-//            'class' => 'app\modules\tvertale\module',
-//        ],
+        'baseapp' => [
+            'class' => 'app\modules\baseapp\module',
+        ],
     ],
     'components' => [
         'assetManager' => [
@@ -55,6 +55,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '' => 'index/vue',
             ],
         ],
         'mailer' => [
