@@ -1,9 +1,4 @@
 <?php
-/**
- * Email: srdjandrakul@gmail.com
- * Date: 8/10/2019
- * Time: 20:54
- */
 
 use yii\helpers\Html;
 use app\assets\VueAssets;
@@ -30,7 +25,7 @@ VueAssets::register($this);
 <div class="wrap">
     <?= $this->render('_nav'); ?>
 
-    <div class="container">
+    <div class="container-fluid">
         <?= $content; ?>
     </div>
 </div>
