@@ -5,8 +5,8 @@
  * Time: 20:50
  */
 
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
+use yii\bootstrap4\Nav;
+use yii\bootstrap4\NavBar;
 use yii\helpers\Html;
 
 ?>
@@ -16,11 +16,11 @@ NavBar::begin([
     'brandLabel' => Yii::$app->name,
     'brandUrl' => Yii::$app->homeUrl,
     'options' => [
-        'class' => 'navbar-inverse navbar-fixed-top',
+        'class' => 'navbar navbar-expand-lg navbar-dark bg-dark',
     ],
 ]);
 echo Nav::widget([
-    'options' => ['class' => 'navbar-nav navbar-right'],
+    'options' => ['class' => 'navbar-nav ml-auto'],
     'items' => [
         ['label' => 'Vue', 'url' => ['/index/vue']],
         ['label' => 'About', 'url' => ['/site/about']],

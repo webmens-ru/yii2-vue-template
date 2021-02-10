@@ -25,7 +25,7 @@ VueAssets::register($this);
 <div class="wrap">
     <?= $this->render('_nav'); ?>
 
-    <div class="container">
+    <div class="container-fluid">
         <?= $content; ?>
     </div>
 </div>
