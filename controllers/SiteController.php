@@ -2,8 +2,10 @@
 
 namespace app\controllers;
 
+use app\models\Payments;
 use Yii;
 use yii\filters\AccessControl;
+use yii\helpers\ArrayHelper;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
