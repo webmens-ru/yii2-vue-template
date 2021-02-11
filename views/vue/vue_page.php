@@ -9,8 +9,7 @@
 
 $this->title = 'Yii2 Vue Application';
 ?>
-
 <div id="app">
-    Loading...
+
 </div>
 
